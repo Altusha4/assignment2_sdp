@@ -3,5 +3,9 @@ public class Main {
         Logistics RoadLogistics = new RoadLogistics();
         Transport Truck = RoadLogistics.createTransport();
         Truck.deliver();
+
+        Logistics SeaLogistics = new SeaLogistics();
+        Transport Ship = SeaLogistics.createTransport();
+        Ship.deliver();
     }
 }
